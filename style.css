@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@500;800&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    background-color: hsl(47, 88%, 63%);
+    font-family: 'Figtree', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    box-shadow: 20px 20px 20px ;
+    max-width: 320px;
+    padding: 20px;
+    text-align: left;
+}
+
+.container img {
+    border-radius: 10px;
+    max-width: 100%;
+
+}
+
+.content img {
+    display: inline;
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+    padding-bottom: 20px;
+}
+
+.content span{
+    background-color: hsl(47, 88%, 63%);
+    padding-block: 8px;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+
+.container h1 {
+    color: hsl(0, 0%, 7%);
+    font-size: 1.5rem;
+    margin: 20px 0;
+}
+
+.container p {
+    color: hsl(0, 0%, 42%);
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.attribution {
+    font-size: 15px;
+    text-align: center;
+    color: hsl(216, 15%, 48%);
+    margin-top: 20px;
+}
+
+.attribution a {
+    color: hsl(218, 44%, 22%);
+    text-decoration: none;
+    font-size: 15px;
+}
+
+a :hover{
+   background-color: bisque;
+   cursor: pointer;
+}
